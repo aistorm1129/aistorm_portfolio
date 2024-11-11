@@ -1291,11 +1291,11 @@ export const projects = [
   },
   {
     id: "project-18",
-    title: "",
+    title: "Web Site Development",
     // github: "https://github.com/mittal-parth/personal-portfolio",
     // link: "https://parthmittal.netlify.app/",
     image: portfolio,
-    content: "We have developed over 30 different websites, including e-commerce sites and betting sites.",
+    content: "Developed over 30 different websites, including e-commerce sites and betting sites.",
     stack: [
       {
         id: "icon-1",
@@ -1342,21 +1342,21 @@ export const projects = [
         icon: SiMui,
         name: "Mui"
       },
-      {
-        id: "icon-3",
-        icon: SiMongodb,
-        name: "MongoDB"
-      },
-      {
-        id: "icon-3",
-        icon: SiPostgresql,
-        name: "Postgresql"
-      },
-      {
-        id: "icon-3",
-        icon: SiMysql,
-        name: "Mysql"
-      },
+      // {
+      //   id: "icon-3",
+      //   icon: SiMongodb,
+      //   name: "MongoDB"
+      // },
+      // {
+      //   id: "icon-3",
+      //   icon: SiPostgresql,
+      //   name: "Postgresql"
+      // },
+      // {
+      //   id: "icon-3",
+      //   icon: SiMysql,
+      //   name: "Mysql"
+      // },
     ],
   },
 ];
