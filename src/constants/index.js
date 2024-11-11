@@ -1299,7 +1299,7 @@ export const projects = [
     stack: [
       {
         id: "icon-1",
-        icon: Sireact,
+        icon: SiReact,
         name: "React"
       },
       {
