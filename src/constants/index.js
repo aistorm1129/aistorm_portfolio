@@ -1289,6 +1289,76 @@ export const projects = [
       },
     ],
   },
+  {
+    id: "project-18",
+    title: "",
+    // github: "https://github.com/mittal-parth/personal-portfolio",
+    // link: "https://parthmittal.netlify.app/",
+    image: portfolio,
+    content: "We have developed over 30 different websites, including e-commerce sites and betting sites.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: Sireact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: SiNextdotjs,
+        name: "Next"
+      },
+      {
+        id: "icon-3",
+        icon: SiVuedotjs,
+        name: "Vue"
+      },
+      {
+        id: "icon-3",
+        icon: SiWordpress,
+        name: "Wordpress"
+      },
+      {
+        id: "icon-3",
+        icon: SiNodedotjs,
+        name: "Node"
+      },
+      {
+        id: "icon-3",
+        icon: SiDjango,
+        name: "Django"
+      },
+      {
+        id: "icon-3",
+        icon: SiLaravel,
+        name: "Laravel"
+      },
+      {
+        id: "icon-3",
+        icon: SiTailwindcss,
+        name: "Tailwindcss"
+      },
+      {
+        id: "icon-3",
+        icon: SiMui,
+        name: "Mui"
+      },
+      {
+        id: "icon-3",
+        icon: SiMongodb,
+        name: "MongoDB"
+      },
+      {
+        id: "icon-3",
+        icon: SiPostgresql,
+        name: "Postgresql"
+      },
+      {
+        id: "icon-3",
+        icon: SiMysql,
+        name: "Mysql"
+      },
+    ],
+  },
 ];
 
 // Add links to blogs here
