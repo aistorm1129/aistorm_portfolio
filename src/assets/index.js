@@ -59,6 +59,8 @@ import dennisivy from "./dennisivy.png";
 import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
+import zapier_flow from "./zapier.png";
+import make_flow from "./make.png";
 
 export {
   quotes,
@@ -117,5 +119,7 @@ export {
   dennisivy,
   manipal,
   icon,
-  ethforall
+  ethforall,
+  zapier_flow,
+  make_flow
 };

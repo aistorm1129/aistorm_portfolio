@@ -34,7 +34,9 @@ import {
   dennisivy,
   manipal,
   icon,
-  ethforall
+  ethforall,
+  zapier_flow,
+  make_flow
 } from "../assets";
 
 import {
@@ -76,6 +78,8 @@ import {
   SiFlask,
   SiFigma,
   SiGooglemaps,
+  SiAirtable,
+  SiWhatsapp,
   SiOpenai,
   SiGooglecloud,
   SiNextdotjs,
@@ -95,7 +99,10 @@ import {
   SiScipy,
   SiWordpress,
   SiZapier,
+  SiGooglesheets,
+  SiSlack,
   SiRasa,
+  SiIntegromat,
   SiDialogflow,
   SiOpencv,
   SiNodedotjs,
@@ -123,7 +130,6 @@ import {
   SiNumpy,
   SiApachekafka,
   SiApachespark,
-
 } from "react-icons/si";
 
 import {
@@ -185,7 +191,7 @@ export const educationList = [
     icon: nitk,
     title: "East Ukrainian National University",
     degree: "Bachelor of Computer Science",
-    duration: "2018 - 2022",
+    duration: "2015 - 2019",
     content1: "Major: Machine Learning",
     content2: "Minor: Electronics Engineering",
   },
@@ -448,6 +454,11 @@ export const skills = [
         name: "Zapier"
       },
       {
+        id: "f-26",
+        icon: SiIntegromat,
+        name: "Make.com"
+      },
+      {
         id: "f-18",
         icon: SiNodedotjs,
         name: "Node",
@@ -507,11 +518,11 @@ export const skills = [
       //   icon: SiMui,
       //   name: "MUI",
       // },
-      {
-        id: "f-30",
-        icon: SiEthereum,
-        name: "Ethereum",
-      },
+      // {
+      //   id: "f-30",
+      //   icon: SiEthereum,
+      //   name: "Ethereum",
+      // },
     ],
   },
   {
@@ -667,6 +678,78 @@ export const experiences = [
 // Add information about all the projects to be listed out in your portfolio
 export const projects = [
   {
+    id: "project-21",
+    title: "Whatsapp and ChatGPT integration using Make.com",
+    // github: "https://github.com/ayush4345/Comicify.ai",
+    // link: "https://comicify-ai.vercel.app/",
+    image: make_flow,
+    content:
+      "This project is a conversational AI tool for coaching purposes with features including message processing, conversation tracking, and simple data storage.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiIntegromat,
+        name: "Make.com"
+      },
+      {
+        id: "icon-2",
+        icon: SiTwilio,
+        name: "Twilio API"
+      },
+      {
+        id: "icon-3",
+        icon: SiOpenai,
+        name: "OpenAI"
+      },
+      {
+        id: "icon-4",
+        icon: SiWhatsapp,
+        name: "Whatsapp API"
+      }, 
+      {
+        id: "icon-4",
+        icon: SiAirtable,
+        name: "Airtable"
+      },      
+    ],
+  },
+  {
+    id: "project-22",
+    title: "CRM Integration Automation using Zapier",
+    // github: "https://github.com/ayush4345/Comicify.ai",
+    // link: "https://comicify-ai.vercel.app/",
+    image: zapier_flow,
+    content:
+      "This is an automated lead management system that connects Facebook Lead Ads to HubSpot CRM. When a new lead submits a form, Zapier triggers a workflow that creates a contact in HubSpot, assigns it to a sales rep, and sends an automated email/SMS using Twilio.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiZapier,
+        name: "Zapier"
+      },
+      {
+        id: "icon-2",
+        icon: SiTwilio,
+        name: "Twilio API"
+      },
+      {
+        id: "icon-3",
+        icon: SiHubspot,
+        name: "Hubspot API"
+      },
+      {
+        id: "icon-4",
+        icon: SiGooglesheets,
+        name: "Googlesheets"
+      }, 
+      {
+        id: "icon-4",
+        icon: SiSlack,
+        name: "Slack API"
+      },      
+    ],
+  },
+  {
     id: "project-1",
     title: "Customer Support Chatbot for Restaurant Business",
     // github: "https://github.com/ayush4345/Comicify.ai",
@@ -707,42 +790,42 @@ export const projects = [
       },
     ],
   },
-  {
-    id: "project-2",
-    title: "E-commerce Product Recommendation Bot",
-    // github: "https://github.com/mittal-parth/GreenTrust",
-    // link: "https://green-trust-fantom.netlify.app/",
-    image: greentrust,
-    content:
-      "It helps online shoppers by recommending products based on their preferences and previous interactions.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiDialogflow,
-        name: "Dialogflow"
-      },
-      {
-        id: "icon-2",
-        icon: SiMongodb,
-        name: "MongoDB"
-      },
-      {
-        id: "icon-3",
-        icon: SiElasticsearch,
-        name: "Elasticsearch"
-      },
-      {
-        id: "icon-4",
-        icon: SiMailchimp,
-        name: "Mailchimp"
-      },
-      {
-        id: "icon-5",
-        icon: SiDocker,
-        name: "Docker"
-      },
-    ],
-  },
+  // {
+  //   id: "project-2",
+  //   title: "E-commerce Product Recommendation Bot",
+  //   // github: "https://github.com/mittal-parth/GreenTrust",
+  //   // link: "https://green-trust-fantom.netlify.app/",
+  //   image: greentrust,
+  //   content:
+  //     "It helps online shoppers by recommending products based on their preferences and previous interactions.",
+  //   stack: [
+  //     {
+  //       id: "icon-1",
+  //       icon: SiDialogflow,
+  //       name: "Dialogflow"
+  //     },
+  //     {
+  //       id: "icon-2",
+  //       icon: SiMongodb,
+  //       name: "MongoDB"
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: SiElasticsearch,
+  //       name: "Elasticsearch"
+  //     },
+  //     {
+  //       id: "icon-4",
+  //       icon: SiMailchimp,
+  //       name: "Mailchimp"
+  //     },
+  //     {
+  //       id: "icon-5",
+  //       icon: SiDocker,
+  //       name: "Docker"
+  //     },
+  //   ],
+  // },
   {
     id: "project-3",
     title: "B2B Website Support and Lead Generation Bot",
@@ -766,6 +849,47 @@ export const projects = [
         id: "icon-3",
         icon: SiHubspot,
         name: "Hubspot"
+      },
+    ],
+  },
+  {
+    id: "project-2",
+    title: "AI-powered Content and Design Generator",
+    // github: "https://github.com/mittal-parth/GreenTrust",
+    // link: "https://green-trust-fantom.netlify.app/",
+    image: greentrust,
+    content:
+      "The system used generative AI models to create text, images, helping businesses generate high-quality content efficiently. Key features included AI-generated blog posts, social media graphics,  and branding elements like logos and color palettes.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiTensorflow,
+        name: "Tensorflow"
+      },
+      {
+        id: "icon-1",
+        icon: SiOpenai,
+        name: "OpenAI"
+      },
+      {
+        id: "icon-2",
+        icon: SiMongodb,
+        name: "MongoDB"
+      },
+      {
+        id: "icon-3",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-4",
+        icon: SiFastapi,
+        name: "FastAPI"
+      },
+      {
+        id: "icon-5",
+        icon: SiDocker,
+        name: "Docker"
       },
     ],
   },
@@ -810,53 +934,53 @@ export const projects = [
       },
     ],
   },
-  {
-    id: "project-4",
-    title: "Binance Trading Bot",
-    // github: "",
-    // link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
-    image: chargeswap,
-    content:
-      "It explores cryptocurrency price differences on exchanges and automate and optimize your trading.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiPython,
-        name: "Python"
-      },
-      {
-        id: "icon-2",
-        icon: SiBinance,
-        name: "Binance"
-      },
-    ],
-  },
-  {
-    id: "project-15",
-    title: "Sniper Trading Bot",
-    // github: "",
-    // link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
-    image: sniperbot,
-    content:
-      "A fast-reacting sniper bot designed for flash loan arbitrage. It detects price discrepancies across multiple exchanges at token launch and executes trades at high speeds to capture arbitrage opportunities.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiEthereum,
-        name: "Ethereum"
-      },
-      {
-        id: "icon-2",
-        icon: SiSolidity,
-        name: "Solidity"
-      },
-      {
-        id: "icon-2",
-        icon: SiWeb3Dotjs,
-        name: "Web3"
-      },
-    ],
-  },  
+  // {
+  //   id: "project-4",
+  //   title: "Binance Trading Bot",
+  //   // github: "",
+  //   // link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
+  //   image: chargeswap,
+  //   content:
+  //     "It explores cryptocurrency price differences on exchanges and automate and optimize your trading.",
+  //   stack: [
+  //     {
+  //       id: "icon-1",
+  //       icon: SiPython,
+  //       name: "Python"
+  //     },
+  //     {
+  //       id: "icon-2",
+  //       icon: SiBinance,
+  //       name: "Binance"
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: "project-15",
+  //   title: "Sniper Trading Bot",
+  //   // github: "",
+  //   // link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
+  //   image: sniperbot,
+  //   content:
+  //     "A fast-reacting sniper bot designed for flash loan arbitrage. It detects price discrepancies across multiple exchanges at token launch and executes trades at high speeds to capture arbitrage opportunities.",
+  //   stack: [
+  //     {
+  //       id: "icon-1",
+  //       icon: SiEthereum,
+  //       name: "Ethereum"
+  //     },
+  //     {
+  //       id: "icon-2",
+  //       icon: SiSolidity,
+  //       name: "Solidity"
+  //     },
+  //     {
+  //       id: "icon-2",
+  //       icon: SiWeb3Dotjs,
+  //       name: "Web3"
+  //     },
+  //   ],
+  // },  
   {
     id: "project-14",
     title: "LLM Fine Tuning ",
@@ -1043,73 +1167,73 @@ export const projects = [
       },
     ],
   },
-  {
-    id: "project-13",
-    title: "Video Generation",
-    // github: "",
-    // link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
-    image: videogen,
-    content:
-      "This is an automated video generation tool built with Python 3.11. This project allows users to create videos from custom-formatted scripts, processing them into fully rendered video outputs.It uses Moviepy, Gtts.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiPython,
-        name: "Python"
-      },
-      {
-        id: "icon-2",
-        icon: SiOpencv,
-        name: "OpenCV"
-      },
-      {
-        id: "icon-3",
-        icon: SiNumpy,
-        name: "Numpy"
-      },
-    ],
-  },
-  {
-    id: "project-5",
-    title: "Fashion Recommendation and Translation Assistant",
-    // github: "",
-    // link: "http://recruitment.nitk.ac.in/",
-    image: recruitment,
-    content:
-      "This AI-based assistant helps users translate a clothing item’s style, color, and material into outfit recommendations or complementary fashion pieces.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiTensorflow,
-        name: "Tensorflow"
-      },
-      {
-        id: "icon-2",
-        icon: SiOpencv,
-        name: "OpenCV"
-      },
-      {
-        id: "icon-3",
-        icon: SiScikitlearn,
-        name: "Sckit-learn"
-      },
-      {
-        id: "icon-3",
-        icon: SiSpacy,
-        name: "Spacy"
-      },
-      {
-        id: "icon-3",
-        icon: SiFlask,
-        name: "Flask"
-      },
-      {
-        id: "icon-3",
-        icon: SiMongodb,
-        name: "MongoDB"
-      },
-    ],
-  },
+  // {
+  //   id: "project-13",
+  //   title: "Video Generation",
+  //   // github: "",
+  //   // link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
+  //   image: videogen,
+  //   content:
+  //     "This is an automated video generation tool built with Python 3.11. This project allows users to create videos from custom-formatted scripts, processing them into fully rendered video outputs.It uses Moviepy, Gtts.",
+  //   stack: [
+  //     {
+  //       id: "icon-1",
+  //       icon: SiPython,
+  //       name: "Python"
+  //     },
+  //     {
+  //       id: "icon-2",
+  //       icon: SiOpencv,
+  //       name: "OpenCV"
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: SiNumpy,
+  //       name: "Numpy"
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: "project-5",
+  //   title: "Fashion Recommendation and Translation Assistant",
+  //   // github: "",
+  //   // link: "http://recruitment.nitk.ac.in/",
+  //   image: recruitment,
+  //   content:
+  //     "This AI-based assistant helps users translate a clothing item’s style, color, and material into outfit recommendations or complementary fashion pieces.",
+  //   stack: [
+  //     {
+  //       id: "icon-1",
+  //       icon: SiTensorflow,
+  //       name: "Tensorflow"
+  //     },
+  //     {
+  //       id: "icon-2",
+  //       icon: SiOpencv,
+  //       name: "OpenCV"
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: SiScikitlearn,
+  //       name: "Sckit-learn"
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: SiSpacy,
+  //       name: "Spacy"
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: SiFlask,
+  //       name: "Flask"
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: SiMongodb,
+  //       name: "MongoDB"
+  //     },
+  //   ],
+  // },
   {
     id: "project-6",
     title: "Emotional Response Analysis for Educational Content",
@@ -1289,76 +1413,76 @@ export const projects = [
       },
     ],
   },
-  {
-    id: "project-18",
-    title: "Web Site Development",
-    // github: "https://github.com/mittal-parth/personal-portfolio",
-    // link: "https://parthmittal.netlify.app/",
-    image: portfolio,
-    content: "Developed over 30 different websites, including e-commerce sites and betting sites.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: SiNextdotjs,
-        name: "Next"
-      },
-      {
-        id: "icon-3",
-        icon: SiVuedotjs,
-        name: "Vue"
-      },
-      {
-        id: "icon-3",
-        icon: SiWordpress,
-        name: "Wordpress"
-      },
-      {
-        id: "icon-3",
-        icon: SiNodedotjs,
-        name: "Node"
-      },
-      {
-        id: "icon-3",
-        icon: SiDjango,
-        name: "Django"
-      },
-      {
-        id: "icon-3",
-        icon: SiLaravel,
-        name: "Laravel"
-      },
-      {
-        id: "icon-3",
-        icon: SiTailwindcss,
-        name: "Tailwindcss"
-      },
-      {
-        id: "icon-3",
-        icon: SiMui,
-        name: "Mui"
-      },
-      // {
-      //   id: "icon-3",
-      //   icon: SiMongodb,
-      //   name: "MongoDB"
-      // },
-      // {
-      //   id: "icon-3",
-      //   icon: SiPostgresql,
-      //   name: "Postgresql"
-      // },
-      // {
-      //   id: "icon-3",
-      //   icon: SiMysql,
-      //   name: "Mysql"
-      // },
-    ],
-  },
+  // {
+  //   id: "project-18",
+  //   title: "Web Site Development",
+  //   // github: "https://github.com/mittal-parth/personal-portfolio",
+  //   // link: "https://parthmittal.netlify.app/",
+  //   image: portfolio,
+  //   content: "Developed over 30 different websites, including e-commerce sites and betting sites.",
+  //   stack: [
+  //     {
+  //       id: "icon-1",
+  //       icon: SiReact,
+  //       name: "React"
+  //     },
+  //     {
+  //       id: "icon-2",
+  //       icon: SiNextdotjs,
+  //       name: "Next"
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: SiVuedotjs,
+  //       name: "Vue"
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: SiWordpress,
+  //       name: "Wordpress"
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: SiNodedotjs,
+  //       name: "Node"
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: SiDjango,
+  //       name: "Django"
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: SiLaravel,
+  //       name: "Laravel"
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: SiTailwindcss,
+  //       name: "Tailwindcss"
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: SiMui,
+  //       name: "Mui"
+  //     },
+  //     // {
+  //     //   id: "icon-3",
+  //     //   icon: SiMongodb,
+  //     //   name: "MongoDB"
+  //     // },
+  //     // {
+  //     //   id: "icon-3",
+  //     //   icon: SiPostgresql,
+  //     //   name: "Postgresql"
+  //     // },
+  //     // {
+  //     //   id: "icon-3",
+  //     //   icon: SiMysql,
+  //     //   name: "Mysql"
+  //     // },
+  //   ],
+  // },
 ];
 
 // Add links to blogs here
@@ -1563,7 +1687,7 @@ export const socialMedia = [
 
 // Your professional summary
 export const aboutMe = {
-    name: "AI/ML | Chatbot | Data | Automation | FullStack",
+    name: "AI/ML | Chatbot | Automation | Data Science",
     githubUsername: 'mittal-parth',
     // tagLine: "MTS-1 @Oracle | ex-SDE Intern @Averlon | ex-Tech Lead @IRIS,NITK | ETHIndia'22 Winner | NITK'24",
     intro: "Developer from Ukraine who is either busy improving his craft or pondering over the next big idea. I specialize in AI/ML model development, implementing and automating AI solutions on different platforms."
