@@ -191,7 +191,7 @@ export const educationList = [
     icon: nitk,
     title: "East Ukrainian National University",
     degree: "Bachelor of Computer Science",
-    duration: "2015 - 2019",
+    duration: "2020 - 2024",
     content1: "Major: Machine Learning",
     content2: "Minor: Electronics Engineering",
   },
@@ -605,7 +605,8 @@ export const experiences = [
     // link: "https://www.oracle.com/in/",
     positions: [
       {
-        title: "AI engineer",
+        // title: "AI engineer",
+        title: "Machine Learning Engineer",
         duration: "July 2022 - September 2024",
         content: [
           {
@@ -623,56 +624,70 @@ export const experiences = [
         ],
       },
       {
-        title: "Machine Learning Engineer",
-        duration: "October 2021 - June 2022",
+        title: "Software Engineer",
+        duration: "November 2021 - June 2022",
         content: [
           {
-            text: "Designed and implemented Generative Adversarial Networks ( GANs) for tasks such as image generation, style transfer, and creating synthetic datasets for machine learning.",
+            text: "Developed full-featured web applications using the MERN stack, integrating dynamic front-end user interfaces with robust back-end systems.",
             link: "",
           },
           {
-            text: "Developed and deployed multiple NLP-based applications, including sentiment analysis, named entity recognition ( NER) , and text classification models.",
+            text: "Designed and implemented RESTful APIs to handle complex queries and efficient data flow between client and server.",
             link: ""
           }
         ],
       },
+      // {
+      //   title: "Machine Learning Engineer",
+      //   duration: "October 2021 - June 2022",
+      //   content: [
+      //     {
+      //       text: "Designed and implemented Generative Adversarial Networks ( GANs) for tasks such as image generation, style transfer, and creating synthetic datasets for machine learning.",
+      //       link: "",
+      //     },
+      //     {
+      //       text: "Developed and deployed multiple NLP-based applications, including sentiment analysis, named entity recognition ( NER) , and text classification models.",
+      //       link: ""
+      //     }
+      //   ],
+      // },
     ],
   },
-  {
-    organisation: "Uptech",
-    logo: averlon,
-    // link: "https://averlon.ai/",
-    positions: [
-      {
-        title: "Machine Learning Engineer",
-        duration: "November 2019 - August 2021",
-        content: [
-          {
-            text: "Integrated AI models into web and mobile applications using Flask and TensorFlow Serving for real-time inference.",
-            link: ""
-          },
-          {
-            text: "Built a high-performance data pipeline for batch processing by leveraging NumPy's efficient array handling, improving data throughput and reducing memory usage by 24%.",
-            link: ""
-          }
-        ],
-      },
-      {
-        title: "Machine Learning Engineer Intern",
-        duration: "June 2019 - October 2019",
-        content: [
-          {
-            text: "Developed custom data transformation scripts using Pandas, reducing data cleaning time by 35% and standardizing inputs from multiple data sources.",
-            link: ""
-          },
-          // {
-          //   text: "Extended support for Azure for reachability analysis of assets for cloud security posture management.",
-          //   link: ""
-          // }
-        ],
-      },
-    ],
-  }, 
+  // {
+  //   organisation: "Uptech",
+  //   logo: averlon,
+  //   // link: "https://averlon.ai/",
+  //   positions: [
+  //     {
+  //       title: "Machine Learning Engineer",
+  //       duration: "November 2019 - August 2021",
+  //       content: [
+  //         {
+  //           text: "Integrated AI models into web and mobile applications using Flask and TensorFlow Serving for real-time inference.",
+  //           link: ""
+  //         },
+  //         {
+  //           text: "Built a high-performance data pipeline for batch processing by leveraging NumPy's efficient array handling, improving data throughput and reducing memory usage by 24%.",
+  //           link: ""
+  //         }
+  //       ],
+  //     },
+  //     {
+  //       title: "Machine Learning Engineer Intern",
+  //       duration: "June 2019 - October 2019",
+  //       content: [
+  //         {
+  //           text: "Developed custom data transformation scripts using Pandas, reducing data cleaning time by 35% and standardizing inputs from multiple data sources.",
+  //           link: ""
+  //         },
+  //         // {
+  //         //   text: "Extended support for Azure for reachability analysis of assets for cloud security posture management.",
+  //         //   link: ""
+  //         // }
+  //       ],
+  //     },
+  //   ],
+  // }, 
 ];
 
 // Add information about all the projects to be listed out in your portfolio
@@ -1687,7 +1702,8 @@ export const socialMedia = [
 
 // Your professional summary
 export const aboutMe = {
-    name: "AI/ML | Chatbot | Automation | Data | Full Stack",
+    // name: "AI/ML | Chatbot | Automation | Data | Full Stack",
+    name: "AI/ML | Automation | Data Science",
     githubUsername: 'mittal-parth',
     // tagLine: "MTS-1 @Oracle | ex-SDE Intern @Averlon | ex-Tech Lead @IRIS,NITK | ETHIndia'22 Winner | NITK'24",
     intro: "Developer from Ukraine who is either busy improving his craft or pondering over the next big idea. I specialize in AI/ML model development, implementing and automating AI solutions on different platforms."
