@@ -1703,7 +1703,7 @@ export const socialMedia = [
 // Your professional summary
 export const aboutMe = {
     // name: "AI/ML | Chatbot | Automation | Data | Full Stack",
-    name: "AI/ML | Automation | Data Science",
+    name: "AI/ML | Automation | Full Stack",
     githubUsername: 'mittal-parth',
     // tagLine: "MTS-1 @Oracle | ex-SDE Intern @Averlon | ex-Tech Lead @IRIS,NITK | ETHIndia'22 Winner | NITK'24",
     intro: "Developer from Ukraine who is either busy improving his craft or pondering over the next big idea. I specialize in AI/ML model development, implementing and automating AI solutions on different platforms."
