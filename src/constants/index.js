@@ -949,53 +949,53 @@ export const projects = [
       },
     ],
   },
-  // {
-  //   id: "project-4",
-  //   title: "Binance Trading Bot",
-  //   // github: "",
-  //   // link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
-  //   image: chargeswap,
-  //   content:
-  //     "It explores cryptocurrency price differences on exchanges and automate and optimize your trading.",
-  //   stack: [
-  //     {
-  //       id: "icon-1",
-  //       icon: SiPython,
-  //       name: "Python"
-  //     },
-  //     {
-  //       id: "icon-2",
-  //       icon: SiBinance,
-  //       name: "Binance"
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: "project-15",
-  //   title: "Sniper Trading Bot",
-  //   // github: "",
-  //   // link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
-  //   image: sniperbot,
-  //   content:
-  //     "A fast-reacting sniper bot designed for flash loan arbitrage. It detects price discrepancies across multiple exchanges at token launch and executes trades at high speeds to capture arbitrage opportunities.",
-  //   stack: [
-  //     {
-  //       id: "icon-1",
-  //       icon: SiEthereum,
-  //       name: "Ethereum"
-  //     },
-  //     {
-  //       id: "icon-2",
-  //       icon: SiSolidity,
-  //       name: "Solidity"
-  //     },
-  //     {
-  //       id: "icon-2",
-  //       icon: SiWeb3Dotjs,
-  //       name: "Web3"
-  //     },
-  //   ],
-  // },  
+  {
+    id: "project-4",
+    title: "Binance Trading Bot",
+    // github: "",
+    // link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
+    image: chargeswap,
+    content:
+      "It explores cryptocurrency price differences on exchanges and automate and optimize your trading.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiPython,
+        name: "Python"
+      },
+      {
+        id: "icon-2",
+        icon: SiBinance,
+        name: "Binance"
+      },
+    ],
+  },
+  {
+    id: "project-15",
+    title: "Sniper Trading Bot",
+    // github: "",
+    // link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
+    image: sniperbot,
+    content:
+      "A fast-reacting sniper bot designed for flash loan arbitrage. It detects price discrepancies across multiple exchanges at token launch and executes trades at high speeds to capture arbitrage opportunities.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiEthereum,
+        name: "Ethereum"
+      },
+      {
+        id: "icon-2",
+        icon: SiSolidity,
+        name: "Solidity"
+      },
+      {
+        id: "icon-2",
+        icon: SiWeb3Dotjs,
+        name: "Web3"
+      },
+    ],
+  },  
   {
     id: "project-14",
     title: "LLM Fine Tuning ",
